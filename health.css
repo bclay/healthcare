@@ -15,10 +15,51 @@ h1 {
 h3 {
 	color: grey;
 	font-family: 'Source Sans Pro', sans-serif;
-	text-align: center;
+	text-align: left;
+    padding-top: 100px;
+    padding-left: 150px;
 	text-shadow: 2px 2px black;
 }
 
+h5 {
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+    padding-left: 250px;
+    padding-right: 250px;
+    
+}
+
+h6 {
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+    padding-left: 300px;
+    padding-right: 250px;
+    margin: auto;
+    
+}
+
+
+p {
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+    padding-left: 150px;
+    padding-right: 150px;
+    
+}
+
+b {
+    font-weight: 700;
+}
+
+img {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin:auto;
+}
+    
 .symbol {
 	height: 30px;
 	width: 90px;
@@ -33,6 +74,15 @@ h3 {
 
 body {
 	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container{
+    height: 100px;
+    width: 400px;
+    border-style: dashed;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 .sym-top {
