@@ -1,0 +1,51 @@
+.topbar {
+	background-color: red;
+	height: 300px;
+	text-align: center;
+	width: 100%;
+}
+
+h1 {
+	color: white;
+	top: 50%;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-shadow: 2px 2px grey;
+}
+
+h3 {
+	color: grey;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	text-shadow: 2px 2px black;
+}
+
+.symbol {
+	height: 30px;
+	width: 90px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.spacer {
+	height: 75px;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.sym-top {
+	height: 30px;
+	width: 30px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+.sym-bot {
+	height: 30px;
+	width: 30px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
