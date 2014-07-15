@@ -8,34 +8,56 @@
 h1 {
 	color: white;
 	font-family: 'Source Sans Pro', sans-serif;
-	text-shadow: 2px 2px grey;
+	text-shadow: 5px 5px #333333;
 	font-size: 50px;
+	position: relative;
+	top: -50px;
+}
+
+.left {
+	float: left;
+	padding-left: 5px;
+	left: 250px;
+}
+.right {
+	float: right;
+	padding-right: 10px;
+	right: 250px;
 }
 
 h2 {
 	color: white;
 	font-family: 'Source Sans Pro', sans-serif;
-	text-shadow: 2px 2px grey;
-	font-size: 50px;
 	float: left;
-
+	text-shadow: 5px 5px #333333;
+	font-size: 300px;
+	position: relative;
+	top: -320px;
 }
 
+
+
 h3 {
-	color: grey;
+	color: black;
 	font-family: 'Source Sans Pro', sans-serif;
 	text-align: left;
-    padding-top: 100px;
-    padding-left: 150px;
-	text-shadow: 2px 2px black;
+    padding-top: 50px;
+    padding-left: 50px;
+	text-shadow: 0.5px 0.5px grey;
+}
+
+h4 {
+	color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
 }
 
 h5 {
     color: black;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 500;
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 100px;
+    padding-right: 100px;
     
 }
 
@@ -43,19 +65,19 @@ h6 {
     color: black;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 500;
-    padding-left: 300px;
-    padding-right: 250px;
+    padding-left: 100px;
+padding-right: 100px;
     margin: auto;
     
 }
 
 
 p {
-    color: black;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 500;
-    padding-left: 150px;
-    padding-right: 150px;
+    text-align: left;
+    
+    padding-left: 50px;
+    padding-right: 50px;
+    
     
 }
 
@@ -64,9 +86,11 @@ b {
 }
 
 img {
+	
+	/*
     padding-left: 100px;
     padding-right: 100px;
-    margin:auto;
+    margin:auto;*/
 }
     
 .symbol {
@@ -83,6 +107,8 @@ img {
 
 body {
 	font-family: 'Source Sans Pro', sans-serif;
+	color: black;
+	font-weight: 500;
 }
 
 .container{
@@ -108,14 +134,6 @@ body {
 	left: 30px;
 }
 
-.container{
-    height: 100px;
-    width: 400px;
-    border-style: dashed;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
 
 .sym-top {
 	height: 30px;
@@ -130,4 +148,23 @@ body {
 	background-color: white;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+table,th,td
+{
+border:1px solid black;
+border-collapse:collapse;
+
+}
+th,td
+{
+	padding:5px;
+	/*color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;*/
+
+}
+.footer{
+	position: relative;
+	top: -200px;
 }
