@@ -1,5 +1,5 @@
 .topbar {
-	background-color: red;
+	background-color: #D63333;
 	height: 350px;
 	text-align: center;
 	width: 100%;
@@ -78,12 +78,7 @@ b {
     font-weight: 700;
 }
 
-img {
-    padding-left: 100px;
-    padding-right: 100px;
-    margin:auto;
-}
-    
+
 .symbol {
 	height: 30px;
 	width: 90px;
@@ -110,7 +105,6 @@ body {
 }
 
 .bracket {
-	
 	font-size: 70px;
 	left: 30px;
 }
@@ -125,11 +119,9 @@ body {
 
 .container{
     height: 100px;
-    width: 400px;
+    width: auto;
     border-style: dashed;
-    margin-left: auto;
-    margin-right: auto;
-    
+    margin: auto; 
 }
 
 .sym-top {
@@ -146,3 +138,90 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+#typed-cursor {
+	  font-weight: 400;
+    font-size: 90px;
+    color: white;
+	}
+	 
+	.slogan {
+	color: transparent;
+	font-size: 300px;
+	position: absolute;
+	top: 50%;
+	text-align: center;
+	margin: -60px 0 0 0;
+	display: block;
+	width: 100%;
+}
+
+#typed-cursor {
+	color: white;
+	font-weight: 400;
+}
+
+#typed-cursor.blinking {
+  -webkit-animation: 1s blink step-end infinite;
+	-moz-animation: 1s blink step-end infinite;
+	-ms-animation: 1s blink step-end infinite;
+	-o-animation: 1s blink step-end infinite;
+	animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+	from,to {
+	color: transparent;
+}
+ 50% {
+    color: white;
+ }
+
+}
+
+@-moz-keyframes blink {
+	from,to {
+	color: transparent;
+}
+ 50% {
+   color: white;
+ }
+
+}
+
+@-webkit-keyframes "blink" {
+	from,to {
+	color: transparent;
+}
+ 50% {
+   color: white;
+ }
+
+}
+
+@-ms-keyframes "blink" {
+	from,to {
+	color: transparent;
+}
+ 50% {
+   color: white;
+ }
+
+}
+
+@-o-keyframes "blink" {
+	from,to {
+	color: transparent;
+}
+ 50% {
+   color: white;
+ }
+}
+
+
+img {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin:auto;
+}
+    
