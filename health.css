@@ -140,25 +140,20 @@ body {
 }
 
 #typed-cursor {
-	  font-weight: 400;
+    font-weight: 40;
     font-size: 90px;
     color: white;
-	}
+}
 	 
-	.slogan {
+.slogan {
 	color: transparent;
 	font-size: 300px;
 	position: absolute;
 	top: 50%;
-	text-align: center;
+	text-align:center;
 	margin: -60px 0 0 0;
 	display: block;
 	width: 100%;
-}
-
-#typed-cursor {
-	color: white;
-	font-weight: 400;
 }
 
 #typed-cursor.blinking {
