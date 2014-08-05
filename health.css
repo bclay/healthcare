@@ -1,6 +1,6 @@
 .topbar {
 	background-color: red;
-	height: 300px;
+	height: 350px;
 	text-align: center;
 	width: 100%;
 }
@@ -16,18 +16,32 @@ h2 {
 	color: white;
 	font-family: 'Source Sans Pro', sans-serif;
 	text-shadow: 2px 2px grey;
-	font-size: 50px;
+	font-size: 100px;
 	float: left;
 
 }
 
+hr { 
+    width:200px;
+    height:1px; 
+    background: #fff;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
 h3 {
-	color: grey;
+	color: black;
 	font-family: 'Source Sans Pro', sans-serif;
 	text-align: left;
     padding-top: 100px;
     padding-left: 150px;
-	text-shadow: 2px 2px black;
+	text-shadow: 0.5px 0.5px grey;
+}
+
+h4 {
+	color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
 }
 
 h5 {
@@ -56,6 +70,7 @@ p {
     font-weight: 500;
     padding-left: 150px;
     padding-right: 150px;
+    
     
 }
 
