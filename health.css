@@ -1,6 +1,6 @@
 .topbar {
 	background-color: #A653CF;
-	height: 300px;
+	height: 350px;
 	text-align: center;
 	width: 100%;
 }
@@ -16,13 +16,13 @@ h1 {
 
 .left {
 	float: left;
-	padding-left: 15px;
+	padding-left: 0px;
 	left: 180px;
 }
 .right {
 	float: right;
-	padding-right: 5px;
-	right: 180px;
+	padding-right: 0px;
+	right: 190px;
 }
 
 h2 {
@@ -103,7 +103,7 @@ img {
 }
 
 .spacer {
-	height: 75px;
+	height: 40px;
 }
 
 body {
